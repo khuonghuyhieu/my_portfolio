@@ -1,0 +1,98 @@
+@font-face {
+  font-family: "abz";
+  src: url("../fonts/ABeeZee-Regular.woff2") format("woff2"),
+    url("../fonts/ABeeZee-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: "abzi";
+  src: url("../fonts/ABeeZee-Italic.woff2") format("woff2"),
+    url("../fonts/ABeeZee-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: "gfs";
+  src: url("../fonts/GFSNeohellenic-Regular.woff2") format("woff2"),
+    url("../fonts/GFSNeohellenic-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: "gfsi";
+  src: url("../fonts/GFSNeohellenic-Italic.woff2") format("woff2"),
+    url("../fonts/GFSNeohellenic-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: "gfsbi";
+  src: url("../fonts/GFSNeohellenic-BoldItalic.woff2") format("woff2"),
+    url("../fonts/GFSNeohellenic-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: "gfsb";
+  src: url("../fonts/GFSNeohellenic-Bold.woff2") format("woff2"),
+    url("../fonts/GFSNeohellenic-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: "rrnor";
+  src: url("../fonts/RedRose-Light.woff2") format("woff2"),
+    url("../fonts/RedRose-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: "rrb";
+  src: url("../fonts/RedRose-Bold.woff2") format("woff2"),
+    url("../fonts/RedRose-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: "rrw";
+  src: url("../fonts/RedRose-Medium.woff2") format("woff2"),
+    url("../fonts/RedRose-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: "rrww";
+  src: url("../fonts/RedRose-SemiBold.woff2") format("woff2"),
+    url("../fonts/RedRose-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: "rr";
+  src: url("../fonts/RedRose-Regular.woff2") format("woff2"),
+    url("../fonts/RedRose-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: fallback;
+}
