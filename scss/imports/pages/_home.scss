@@ -1,5 +1,168 @@
-// CSS HOMEPAGE
-h1 {
-    font-size: 60px;
-    color: red;
+.homepage {
+  position: relative;
+  overflow-x: clip;
+  .introduce {
+    position: absolute;
+    padding-top: 160px;
+    .effect-wrap {
+      position: absolute;
+      z-index: -1;
+      .effect-radius-1 {
+        content: "";
+        width: 620px;
+        height: 620px;
+        position: absolute;
+        top: 185px;
+        left: -168px;
+        background: $green-cl;
+        opacity: 0.5;
+        box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.5);
+        border-radius: 50%;
+      }
+      .effect-radius-2 {
+        content: "";
+        width: 370px;
+        height: 350px;
+        position: absolute;
+        top: -85px;
+        left: 1330px;
+        background: $green-cl;
+        opacity: 0.5;
+        box-shadow: inset 4px 4px 4px rgba(0, 0, 0, 0.5);
+        border-radius: 50%;
+      }
+      .effect-radius-3 {
+        content: "";
+        width: 180px;
+        height: 180px;
+        position: absolute;
+        top: 175px;
+        left: 780px;
+        background: $green-cl;
+        opacity: 0.5;
+        box-shadow: inset 4px 4px 4px rgba(0, 0, 0, 0.5);
+        border-radius: 50%;
+      }
+      .effect-radius-4 {
+        content: "";
+        width: 15px;
+        height: 15px;
+        position: absolute;
+        top: 555px;
+        left: 490px;
+        background: $green-cl;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+        border-radius: 50%;
+      }
+      .effect-radius-5 {
+        width: 60px;
+        height: 60px;
+        position: absolute;
+        top: 490px;
+        left: 510px;
+        opacity: 0.5;
+        border: 3px solid $green-cl;
+        border-radius: 50%;
+      }
+      .effect-triangle-1 {
+        border-top: 30px solid transparent;
+        border-left: 30px solid $green-cl;
+        top: -55px;
+        left: 750px;
+        position: absolute;
+      }
+      .effect-triangle-2 {
+        border-top: 30px solid transparent;
+        border-left: 30px solid $green-cl;
+        opacity: 0.5;
+        top: -51px;
+        left: 745px;
+        position: absolute;
+      }
+    }
+
+    .container {
+      .info {
+        display: flex;
+        &_avata {
+          img {
+            width: 380px;
+            height: 632px;
+          }
+        }
+        &_my {
+          padding-top: 46px;
+          padding-left: 114px;
+          p {
+            @include text(none, $font-info, 65px, $text-cl, none);
+          }
+          &-hello {
+            font-size: 20px;
+            opacity: 0.6;
+            font-weight: bold;
+          }
+          &-name {
+            font-size: 85px;
+            color: rgba(0, 0, 0, 0.95) !important;
+            font-weight: bold;
+            margin-left: -5px;
+          }
+          &-des {
+            width: 65%;
+            font-size: 20px;
+            line-height: 40px !important;
+            margin-top: 20px;
+            opacity: 0.6;
+          }
+          &-language {
+            margin-top: 20px;
+            width: 30%;
+            display: flex;
+            justify-content: space-between;
+            img {
+              width: 30px;
+              height: 30px;
+            }
+          }
+        }
+        &_contact {
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-end;
+          align-items: flex-end;
+          margin-bottom: 50px;
+          p {
+            @include text(15px, $font-info, 50px, $text-cl, none);
+            text-align: center;
+            img {
+              width: 30px;
+              height: 30px;
+              margin-left: 15px;
+              margin-bottom: -5px;
+            }
+          }
+        }
+      }
+      .mouse {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        left: 53%;
+        top: 90%;
+        @include transform(translate(-50%, -50%));
+        .mouse_line {
+          content: "";
+          height: 60px;
+          border-left: 1px solid #000;
+          margin-top: 15px;
+        }
+        img {
+          width: 30px;
+          height: 30px;
+          text-align: center;
+        }
+      }
+    }
+  }
 }
